@@ -1,4 +1,4 @@
-<#@ Template Language="C#" HostSpecific="True" Inherits="DynamicTransform" #>
+<#@ Template Language="VB" HostSpecific="True" Inherits="DynamicTransform" #>
 <#@ Output Extension="vb" #>
 
 Public Overridable Function <#= mailerMethod #>() As MailMessage<# if( Model.Interface) { #> Implements I<#= Model.MailerName #>.<#= mailerMethod #>
