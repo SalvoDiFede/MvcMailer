@@ -1,4 +1,4 @@
-﻿<#@ Template Language="C#" HostSpecific="True" Inherits="DynamicTransform" #>
+﻿<#@ Template Language="VB" HostSpecific="True" Inherits="DynamicTransform" #>
 <#@ Output Extension="Master" #>
 <%@ Master Language="VB" Inherits="System.Web.Mvc.ViewMasterPage" %>
 
